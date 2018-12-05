@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+
+	<head>
+		<title>Document</title>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="CSS/login.css">
+	</head> 
+	<body>
+	   <div class="mar-div">
+	   <table></table>
+	   <div id="pad-div">
+	    <div id="login-title">快捷登陆</div>
+	     <ul>
+		    
+			<li id="uname_text">
+				<input type="text" placeholder="会员号/邮箱/手机号" id="uname">
+				<img src="img/yhm.png" alt="" id="txtImg">
+			</li>
+			<li id="uname_pwd">
+				<input type="password" id="upwd">
+				<img src="img/mm.png" alt="" id="txtImg">
+			</li>
+			<li id="_submit">
+				<input type="button" value="登&nbsp;录">
+			</li>
+			<li id="more">
+				<a href="#">忘记密码</a>
+				<a href="#">忘记用户名</a>
+				<a href="register.html">注册</a>
+			</li>
+		 </ul>
+	   </div>
+	   </div>
+	   <script src="js/jquery-1.11.3.js"></script>
+	   <script src="js/login.js"></script>
+	   <!--<script src="common.js"></script>-->
+	   <script>
+	     /*   function login(){
+				var xhr=createXhr();
+				xhr.onreadystatechange=function(){
+				 if(xhr.readyState==4 && xhr.status==200){
+				   var res=xhr.responseText;
+					 alert(res);
+				 }
+				}
+				xhr.open("post",'/user/login',true);
+                xhr.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
+				var user_name=$("uname").value;
+				var user_pwd=$("upwd").value;
+				var user="uname="+user_name+"&upwd="+user_pwd;
+			    xhr.send(user);
+			}
+*/
+	   </script>
+	</body>
+
+</html> 

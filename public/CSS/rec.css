@@ -1,0 +1,571 @@
+
+.tabNav{
+    background: #9e99d1;
+    box-shadow: 0 6px 8px rgba(0,0,0,.2);
+    z-index: 998;
+    position:relative;
+}
+.g-row {
+    width: 1200px;
+    height:70px;
+    margin:0 auto;
+}
+.tab_select{
+    position:relative;
+    width:214px;
+}
+.dt{
+    height:58px;
+    padding:13px 0;
+    float:left;
+}
+.dt a{
+    background: #fff;
+    display: block;
+    font-size:16px;
+    color:#9e99d1;
+    line-height:46px;
+    padding-left:10px;
+    width:214px;
+}
+.dt a i{
+    width: 19px;
+    height: 15px;
+    background-position: -210px -120px;
+    float: right;
+    margin: 16px 13px 0 0;
+}
+.dd{
+    box-shadow: 0 4px 3px rgba(0,0,0,.2);
+    position: absolute;
+    left: 0;
+    top: 70px;
+    width: 214px;
+}
+.dd .ddinner{
+    background:#fff;
+}
+.dd .ddinner a{
+    border-bottom: 1px solid #e0e0e0;
+    height: 57px;
+    line-height: 57px;
+    font-size: 16px;
+    color: #676767;
+    position: relative;
+    cursor: pointer;
+    display: table;
+    width: 100%;
+}
+.dd .ddinner a:hover{
+    color:#9ab26b;
+}
+.dd .ddinner a .iconCate:hover{
+    background:#9ab26b;
+}
+
+.dd .ddinner a h3{
+    float: left;
+    padding-left: 16px;
+    font-size: 16px;
+}
+.dd .ddinner a h3{
+    float: left;
+    padding-left: 16px;
+    font-size: 16px;
+    font-weight: normal;
+}
+.dd .ddinner a .iconCate{
+    width: 57px;
+    height: 57px;
+    background: #f5f7fa;
+    text-align: center;
+    border-right: 1px solid #e0e0e0;
+    display: table-cell;
+    vertical-align: middle;
+}
+.iconCate i {
+    width: 22px;
+    height: 22px;
+    background-position: 0 -60px;
+}
+.HuFu .iconCate i{
+    width: 16px;
+    height: 28px;
+    background-position: -30px -60px;
+}
+.YingYang .iconCate i{
+    width: 27px;
+    height: 22px;
+    background-position: -60px -60px;
+}
+.ShuMa .iconCate i{
+    width: 24px;
+    height: 19px;
+    background-position: -120px -60px;
+}
+.JiaJu .iconCate i{
+    width: 25px;
+    height: 20px;
+    background-position: -90px -60px;
+}
+.QuanQiu .iconCate i{
+    width: 24px;
+    height: 24px;
+    background-position: -150px -60px;
+}
+.QiJian .iconCate i{
+    width: 26px;
+    height: 22px;
+    background-position: -180px -60px;
+}
+.FanYong .iconCate i{
+    width: 24px;
+    height: 25px;
+    background-position: -210px -60px;
+}
+.ddinner .iconTree {
+    width: 6px;
+    height: 10px;
+    background-position: -240px -30px;
+    position: absolute;
+    right: 16px;
+    top: 24px;
+}
+/*.YingYang .iconCate i{
+    width: 6px;
+    height: 10px;
+    background-position: -240px -30px;
+    position: absolute;
+    right: 16px;
+    top: 24px;
+}*/
+
+/*下拉菜单*/
+.dd .dropDown {
+    width: 986px;
+    border-left: 3px solid #9e99d1;
+    position: absolute;
+    left: 214px;
+    top: 0px;
+    background: #fff;
+    overflow: hidden;
+    z-index: 19;
+    min-height: 464px;
+    box-shadow: 2px 4px 3px rgba(0,0,0,.2);
+}
+.dd .item_sub {
+    zoom: 1;
+    overflow: hidden;
+    position: relative;
+    height: 464px;
+}
+.dd .item_channels {
+    float: left;
+    overflow: hidden;
+    font-size: 12px;
+    color: #4b4a4a;
+    width: 796px;
+    padding: 0px 0px 12px 36px;
+}
+.dd .subitems d1{
+    float: left;
+    width: 350px;
+    margin-right: 30px;
+}
+.dd .item_channels dt {
+    overflow: hidden;
+    position: relative;
+    padding: 13px 0px 10px;
+    color: #676767;
+    font-size: 14px;
+    font-weight: 900;
+    border-bottom: 1px solid #e0e0e0;
+}
+.dd .item_channels dt a {
+    color: #676767;
+    font-size: 14px;
+    font-weight: 600;
+}
+.dd .item_channels dd {
+    overflow: hidden;
+    padding-top: 10px;
+    margin-left: -12px;
+}
+.dd .item_channels dd a {
+    padding: 4px 16px 4px 12px;
+    line-height: 16px;
+    height: 16px;
+    white-space: nowrap;
+    display: inline-block;
+    color: #676767;
+    font-size: 14px;
+    position: relative;
+}
+.dd .item_brands {
+    width: 182px;
+    overflow: hidden;
+    float: right;
+}
+.m-banner {
+    height: 125px;
+    margin-top: 18px;
+    width: 170px;
+    overflow: hidden;
+    position: relative;
+}
+.m-banner a {
+    display: block;
+    float: left;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border: 1px solid #e0e0e0;
+    margin: 0 4px 4px 0;
+}
+.m-banner a img {
+    width: 50px;
+}
+.m-ad1 a {
+    height: 300px;
+}
+.m-ad1 img {
+    width: 166px;
+}
+.m-ad1 .txt {
+    position: absolute;
+    top: 30px;
+    left: 15px;
+    text-align: center;
+}
+.m-itemsHw .bd {
+    padding-left: 14px;
+    padding-top: 18px;
+}
+.m-itemsHw .item-ms {
+    display: block;
+    width: 308px;
+    height: 206px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    float: left;
+}
+.m-ad0 {
+    position: absolute;
+    left: 36px;
+    bottom: 21px;
+}
+.m-ad0 a {
+    display: block;
+    width: 360px;
+    height: 140px;
+    overflow: hidden;
+    float: left;
+    margin-right: 11px;
+}
+.m-ad0 img {
+    width: 100%;
+}
+.m-itemsHw .item-ms img {
+    width: 100%;
+}
+.m-itemsHw .item-ms .itemTit {
+    position: absolute;
+    width: 315px;
+    height: 35px;
+    line-height: 35px;
+    background: rgba(0,0,0,.5);
+    color: #fff;
+    left: 0;
+    bottom: 0;
+    padding: 0 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.m-itemsQJ{
+    padding: 16px 8px 16px 8px;
+}
+.item-qj {
+    display: block;
+    float: left;
+    width: 225px;
+    height: 427px;
+    margin: 0 8px;
+}
+.item-qj img {
+    width: 100%;
+    height: 100%;
+}
+.m-itemsFy {
+    padding: 1px 0px 0 15px;
+}
+.item-fy {
+    float: left;
+    width: 307px;
+    height: 206px;
+    border: 1px solid #f2f2f2;
+    margin: 15px 14px 0 0;
+}
+.item-fy .itemTop {
+    padding: 13px;
+    height: 82px;
+}
+.item-fy .itemUserImg {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    width: 82px;
+    height:69px;
+    float: left;
+    overflow: hidden;
+}
+.item-fy .itemUserImg img {
+    width: 100%;
+    height: 100%;
+}
+.item-fy .itemText {
+    margin-top: 8px;
+    margin-left: 100px;
+    font-size: 13px;
+    color: #666;
+    line-height: 22px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    max-height: 66px;
+}
+.item-fy .itemPros {
+    padding-left: 9px;
+    width: 306px;
+    padding-top: 20px;
+}
+.item-fy .itemPro {
+    width: 90px;
+    height: 90px;
+    overflow: hidden;
+    margin-right: 9px;
+    float: left;
+    display: block;
+    background: #f2f2f2;
+}
+.item-fy .itemPro img {
+    width: 100%;
+}
+
+
+
+.navItems>ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+    margin-left: -10px;
+}
+.navItems{
+    margin-left: 24px;
+    overflow: hidden;
+    float:left;
+
+}
+.navItems:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.navItems ul>li{
+    float: left;
+    height: 70px;
+    line-height: 70px;
+}
+.navItems ul li a{
+    font-size: 18px;
+    color: #dcd8fe;
+    font-weight: bold;
+    border-left: 1px solid #b1adda;
+    padding: 0 26px;
+}
+.a_l:hover{
+    color:#fff;
+}
+.a_l_r{
+    width:125px;
+    height:24px;
+}
+.olKf{
+    font-size: 14px;
+    line-height: 70px;
+    float:right;
+    color:#fff;
+}
+.main .layerA {
+    position: relative;
+    height: auto;
+}
+.main .layerA img {
+    position: relative;
+    margin-left: -960px;
+    left: 50%;
+}
+.fixed_nav {
+    text-align: center;
+    position: fixed;
+    right: 50%;
+    margin-right: 520px;
+    width: 100px;
+    top:50%;
+}
+.fixed_nav .nav {
+    background: #000;
+    width: 100px;
+}
+.fixed_nav .nav a {
+    display: block;
+    height: 38px;
+    line-height: 38px;
+    overflow: hidden;
+    border-bottom: 1px solid #545454;
+    font-size: 13px;
+    color: #fff;
+}
+.main .layerB .box, .main .videoBox {
+    width: 1000px;
+    margin: 0 auto;
+}
+.main .layerB .boxs {
+    width: 1050px;
+}
+.main .layerB .ad1 a {
+    width: 1000px;
+    margin-bottom: 0;
+}
+
+.main .layerB .box a {
+    display: block;
+    float: left;
+    margin-bottom: 10px;
+}
+.main .layerB .box a img {
+    width: 1000px;
+    height: 80px;
+    position: relative;
+    margin-left: -500px;
+    left: 50%;
+    display: inline;
+    vertical-align: middle;
+}
+.main .layerD {
+    width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+.main .layerD .floor .floorBoxs {
+    margin: 0;
+    width: 1012px;
+}
+.main .layerD .floor .floorBoxs .floorHot {
+    float: left;
+    background: #f2f2f2;
+    margin-right: 12px;
+    margin-bottom: 12px;
+    position: relative;
+}
+.main .layerD .floor .floorBoxs .floorHot a {
+    display: block;
+    width: 494px;
+    height: 304px;
+    overflow: hidden;
+}
+.main .layerD .floor .floorBoxs .floorHot a .img_box {
+    width: 254px;
+    height: 254px;
+    float: left;
+    margin-top: 25px;
+}
+
+.main .layerD .floor .floorBoxs .floorHot a .img_box img {
+    width: 100%;
+    height: 100%;
+    float: none;
+    margin: 0;
+    vertical-align: middle;
+}
+.main .layerD .floor .floorBoxs .floorHot a .info {
+    width: 240px;
+    float: left;
+    margin-top: 55px;
+}
+.main .layerD .floor .floorBoxs .floorHot a .info .tit {
+    font-size: 18px;
+    color: #000;
+    width: 95%;
+    margin-bottom: 20px;
+}
+.main .layerD .floor .floorBoxs .floorHot a .info .txt {
+    font-size: 12px;
+    color: #666;
+    width: 90%;
+    line-height: 20px;
+}
+.main .layerD .floor .floorBoxs .floorHot a .info .sale_price {
+    bottom: 40px;
+    left: 257px;
+    position: absolute;
+    z-index: 2;
+    font-size: 18px;
+    color: #9ab26b;
+    font-weight: 900;
+    white-space: nowrap;
+}
+.main .layerD .floor .floorBoxs .floorBox {
+    float: left;
+    margin-right: 12px;
+    background: #f2f2f2;
+    margin-bottom: 12px;
+    position: relative;
+}
+.main .layerD .floor .floorBoxs .floorBox a {
+    display: block;
+    text-align: center;
+    width: 241px;
+    height: 304px;
+}
+.main .layerD .floor .floorBoxs .floorBox a .img_box {
+    width: 205px;
+    height: 205px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.main .layerD .floor .floorBoxs .floorBox a .img_box img {
+    width: 100%;
+    margin: 0;
+    vertical-align: middle;
+}
+.main .layerD .floor .floorBoxs .floorBox a .info .tit {
+    font-size: 14px;
+    color: #000;
+    height: 40px;
+    overflow: hidden;
+    margin: 0 13px 10px 13px;
+    line-height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.main .layerD .floor .floorBoxs .floorBox a .info .sale_price {
+    font-size: 14px;
+    color: #9ab26b;
+    font-weight: 900;
+}
+.main .layerD .floor .floorBoxs .floorBox a .info .sale_price .saveMoney {
+    font-size: 13px;
+    color: #999;
+    font-weight: normal;
+    padding-left: 5px;
+}
+

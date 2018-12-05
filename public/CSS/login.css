@@ -1,0 +1,93 @@
+	        .mar-div{
+			   width:350px;
+			   height:350px;
+			   background:#eeeeee;
+			   font-family:"Microsoft YaHei";
+			 }
+			#pad-div{
+				width:300px;
+				height:300px;
+				background:rgba(255,255,255,.7);
+				margin-left:25px;
+				margin-top:20px;
+			}
+			ul{
+				list-style-type:none;
+				width:250px;
+				margin:0px -13px;
+			}
+			#login-title{
+			    height: 18px;
+                line-height: 18px;
+                font-size: 16px;
+                color: #3c3c3c;
+                margin-top: 9px;
+                padding-bottom: 28px;
+                font-weight: 700;
+			    margin-left:28px;
+				line-height:40px;	
+			}
+		
+			#uname_text{
+			    height:32px;
+				width:250px;
+				border:none;
+				margin-bottom:20px;
+				border:1px solid #DDDDDD;
+			}
+			#txtImg{
+				width:35px;
+				vertical-align:middle;
+				background:#0AA1ED;
+			}
+			#uname_pwd{
+			    width:250px;
+			    height:32px;    
+				margin-bottom:30px;
+				margin-top:12px;
+				border:1px solid #DDDDDD;
+			}
+			
+			#uname{
+				width:210px;
+				height:32px;
+				outline:none;
+				border:none;
+				padding:10px
+				box-sizing:border-box;
+			}
+			#upwd{
+				width:210px;
+				height:32px;
+				outline:none;
+				border:none;
+				padding:10px;
+				box-sizing:border-box;
+			}
+			#uname_text{
+				margin-right:20px;			
+			}
+			#_submit>input{
+				width:250px;
+				height:30px;
+				border:none;
+				background:#9AB26B;
+				border-radius:5px;
+			    margin:11px 0px;
+				color:#fff;	
+			}
+			#_submit>input:active{
+				background:#b5cc87;
+			}
+           #more>a{
+				text-decoration:none;
+				color:#6c6c6c;
+				font-size:3px;
+				padding-left:28px;		
+		    }
+			#more{
+				margin:25px 0px;
+			}
+			#more>a:hover{
+				color:#FF4400;
+			}

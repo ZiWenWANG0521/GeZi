@@ -1,0 +1,72 @@
+.register-back{
+	                height:900px;
+                    font-family: Microsoft YaHei;
+	     			background:lightseagreen;
+					position: relative;
+			}
+            .register-box{
+				width: 920px;
+                height: 500px;
+                background: rgba(120,120,120,0.3);
+				position:absolute;
+				top:0;
+				left:0;
+				bottom:0;
+				right:0;
+				margin:auto;
+			}
+			.register-title{
+				    border-bottom: 1px solid #f0f0f0;
+			}
+			.register-txt{
+					width: 138px;
+                    height: 46px;
+                    line-height: 46px;
+                    font-size: 16px;
+                    color: #333;
+                    border: 1px solid #f0f0f0;
+                    border-bottom: 0px;
+                    margin-left: 30px;
+                    text-align: center;
+			}
+			.uname,.email,.pwd,.rpwd{
+					height:40px;
+					width:300px;
+				    color: #333;
+             }
+			input{
+				line-height:30px;
+	        	width:300px;
+				overflow: hidden;
+			}
+			#_submit>input{
+				width:250px;
+				height:30px;
+				border:none;
+				background:#9AB26B;
+				border-radius:5px;
+			    margin:58px 0px;
+				color:#fff;	
+				margin-left:15px;
+			}
+			#_submit>input:active{
+				background:#b5cc87;
+			}
+			.namemsg,.pwdmsg,.emailmsg,.checkRpwd{
+				font-size:12px;
+				color:coral;
+				float:right;
+				display:block;
+			}
+			.Name,.Email,.Pwd,.Rpwd{
+				width:300px;
+				height:80px;
+				margin:0 auto;
+			}
+		.Name>label,.Email>label,.Pwd>label,.Rpwd>label{
+			 font-size:15px;
+			 color:lightcyan;
+            }
+		.bottomLine{
+			border-top: 1px solid #fff;
+		}

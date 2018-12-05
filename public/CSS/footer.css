@@ -1,0 +1,353 @@
+
+
+/*底部*/
+.m-ft1 {
+    background: #222224;
+    padding: 47px 0 57px;
+}
+.m-ft1 .m-ft-search {
+    border: 1px solid #222224;
+    width: 654px;
+    height: 50px;
+    position: relative;
+    z-index: 999;
+    background: #fff;
+    margin: 0 auto;
+}
+.m-ft-search .KeyList {
+    width: 116px;
+    text-align: center;
+    padding-top: 12px;
+    height: 42px;
+    cursor: pointer;
+}
+.m-ft-search .KeyList .hd {
+    font-size: 14px;
+    color: #9ab26b;
+    height: 26px;
+    line-height: 26px;
+    border-right: 1px solid #a1a1a1;
+}
+.m-ft-search .KeyList .hd i {
+    width: 10px;
+    height: 6px;
+    background-position: -210px -180px;
+    margin-left: 12px;
+}
+.m-ft-search .Key {
+    border: none;
+    width: 393px;
+    height: 40px;
+    font-size: 14px;
+    color: #676767;
+    margin-left: 18px;
+    /*line-height: 48px\0/;*/
+}
+.m-ft-search .searchPlaceholder {
+    position: absolute;
+    font-size: 14px;
+    color: #676767;
+    left: 134px;
+    top: 15px;
+}
+.m-ft-search .sub {
+    border: none;
+    width: 120px;
+    height: 48px;
+    text-indent: -9999px;
+    cursor: pointer;
+    background-position: -305px -95px;
+}
+.m-ft1 .m-ft-classBox {
+    overflow: hidden;
+    margin-top: 62px;
+}
+.m-ft1 .m-ft-class {
+    margin-left: -1px;
+}
+.m-ft-class .item {
+    width: 299px;
+    border-left: 1px solid #4e4e50;
+    float: left;
+    height: 90px;
+}
+.m-ft-class .item a {
+    font-size: 16px;
+    color: #fff;
+    display: block;
+    padding-left: 92px;
+    padding-bottom: 25px;
+}
+.m-ft-class .item a i {
+    vertical-align: -5px;
+    margin-right: 16px;
+}
+.m-ft-class .item a.muying i {
+    width: 25px;
+    height: 25px;
+    background-position: -270px -180px;
+}
+.m-ft-class .item a.meizhuang i {
+    width: 19px;
+    height: 32px;
+    background-position: -330px -180px;
+}
+.m-ft-class .item a i {
+    vertical-align: -5px;
+    margin-right: 16px;
+}
+.m-ft-class .item a.baojian i {
+    width: 28px;
+    height: 23px;
+    background-position: -300px -180px;
+}
+.m-ft-class .item a i {
+    vertical-align: -5px;
+    margin-right: 16px;
+}
+.m-ft-class .item a.jiaju i {
+    width: 28px;
+    height: 22px;
+    background-position: -180px -210px;
+}
+.m-ft-class .item a i {
+    vertical-align: -5px;
+    margin-right: 16px;
+}
+.m-ft-class .item a.jiadian i {
+    width: 28px;
+    height: 21px;
+    background-position: -210px -210px;
+}
+
+.m-ft-class .item a i {
+    vertical-align: -5px;
+    margin-right: 16px;
+}
+.m-ft-class .item a.haowu i {
+    width: 28px;
+    height: 28px;
+    background-position: -240px -180px;
+}
+
+.m-ft-class .item a i {
+    vertical-align: -5px;
+    margin-right: 16px;
+}
+.m-ft-class .item a.costco i {
+    width: 26px;
+    height: 21px;
+    background-position: -240px -210px;
+}
+
+.m-ft-class .item a i {
+    vertical-align: -5px;
+    margin-right: 16px;
+}
+.m-ft-class .item a.fanyong i {
+    width: 27px;
+    height: 27px;
+    background-position: -270px -210px;
+}
+
+.m-ft-class .item a i {
+    vertical-align: -5px;
+    margin-right: 16px;
+}
+.foot_flow_tag {
+    text-align: center;
+    padding: 30px 0;
+    background: #fff;
+    text-align: center;
+}
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+.n2_footer {
+    background: #fff;
+    padding: 27px 0 35px;
+    border-top: 4px solid #e9e9e9;
+    border-bottom: 4px solid #e9e9e9;
+}
+.n2_footer .n2_something {
+    width: 1200px;
+    margin: 0px auto;
+    color: #333;
+    font-size: 12px;
+}
+.n2_footer .n2_something ul.line {
+    width: 26.5%;
+    padding-top: 0px;
+}
+.n2_footer .n2_something ul {
+    float: left;
+    position: relative;
+}
+.n2_footer .n2_something ul.line li.n2_mobile {
+    position: absolute;
+    width: 38px;
+    height: 48px;
+    background-position: -190px -522px;
+    left: 0;
+    top: 24px;
+    padding-left: 0;
+}
+.n2_footer .n2_something ul.line li {
+    line-height: 22px;
+    opacity: 0.8;
+    color: #000;
+}
+.index_icon {
+    background: url(http://static01.baocdn.com/images/2017/icon.png);
+    display: inline-block;
+}
+.n2_footer .n2_something ul.line li.n2_400 {
+    font-size: 24px;
+    padding-top: 22px;
+    padding-bottom: 4px;
+    opacity: 1;
+}
+.n2_footer .n2_something ul.line li {
+    line-height: 22px;
+    padding-left: 57px;
+}
+.n2_footer .n2_something .shoppingGuide {
+    padding-left: 30px;
+}
+
+.n2_footer .n2_something ul {
+    float: left;
+    width: auto;
+    padding-top: 15px;
+    position: relative;
+}
+.n2_footer .n2_something ul li.n2_tit {
+    font-size: 14px;
+    padding-bottom: 6px;
+}
+
+.n2_footer .n2_something ul li {
+    line-height: 24px;
+    color: #000;
+}
+.n2_footer .n2_something ul li {
+    line-height: 24px;
+    color: #000;
+}
+.n2_footer .n2_something .userNotice {
+    padding-left: 70px;
+}
+.n2_footer .n2_something .paymentWay {
+    padding-left: 55px;
+}
+.n2_footer .n2_something .shappingWay {
+    padding-left: 70px;
+}
+.n2_footer .n2_something .afterSales {
+    padding-left: 44px;
+}
+.n2_footer .n2_something ul li a {
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+}
+.n2_footer .n2_something a {
+    color: #666;
+}
+.n2_active_subscribe {
+    display: inline-block;
+    width: 22%;
+    font-size: 0;
+    text-align: right;
+    float: right;
+    padding-top: 15px;
+}
+.n2_active_subscribe div {
+    display: inline-block;
+    width: 90px;
+}
+.n2_offical_weibo h4 {
+    position: relative;
+}
+
+.n2_active_subscribe h4 {
+    font: normal 14px/30px microsoft yahei;
+    color: #000;
+    height: 22px;
+    line-height: 22px;
+}
+.n2_offical_weibo h4 span {
+    display: block;
+    width: 24px;
+    height: 20px;
+    position: absolute;
+    left: 5px;
+    top: -12px;
+    background-position: -190px -642px;
+    margin-top: 15px;
+}
+.n2_offical_weibo .wb {
+    background: url(http://static01.baocdn.com/images/2.0/n2_weibo_2.png) no-repeat;
+}
+
+.n2_active_subscribe span {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    margin-top: 15px;
+}
+.n2_offical_wechat {
+    margin-left: 42px;
+}
+.n2_offical_wechat h4 {
+    position: relative;
+}
+.n2_offical_wechat h4 span {
+    display: block;
+    width: 24px;
+    height: 20px;
+    position: absolute;
+    left: 5px;
+    top: -12px;
+    background-position: -190px -674px;
+    margin-top: 15px;
+}
+.n2_offical_wechat .wx {
+    background: url(http://static01.baocdn.com/images/2.0/n2_weixin_3.png) no-repeat;
+}
+
+.n2_active_subscribe span {
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    margin-top: 15px;
+}
+.n2_contact_us {
+    font-size: 12px;
+    background: #fff;
+    padding-bottom: 30px;
+}
+.n2_contact_us ul {
+    width: 580px;
+    margin: 0px auto;
+}
+.n2_contact_us ul li {
+    float: left;
+    padding: 20px 5px;
+}
+.n2_contact_us ul li a {
+    display: block;
+    padding: 3px 14px;
+    font-size: 14px;
+    color: #000;
+    border-radius: 20px;
+}
+.n2_contact_us .n2_copyright {
+    text-align: center;
+    margin: 0 auto;
+    color: #a8a8a8;
+    padding-bottom: 28px;
+}
+.n2_footer .n2_something ul li a:hover {
+    color: #9ab26b;
+}

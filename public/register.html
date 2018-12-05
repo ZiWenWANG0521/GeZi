@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+
+	<head>
+		<title>Document</title>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="./CSS/register.css">
+	</head> 
+	<body>
+	    <div class="register-back">
+		 <div class="register-box">
+			        <div class="register-title">
+						<div class="register-txt">新用户注册</div>
+					</div>
+			        <div class="Name">
+				<label>用户名</label>
+					<div class="uname">
+						<input type="text" id="uname" placeholder="请输入您的手机号/会员名" maxlength="13" onblur="checkUser()">
+						<span class="namemsg"></span>
+					</div>
+				 </div>
+					<div class="Email">
+						<label>邮箱</label>
+						<div class="email">
+							<input type="email" id="email"placeholder="请输入正确邮箱格式" onblur="ckeckEmail()">
+							<span class="emailmsg"></span>
+						</div>
+				   </div>
+				    <div class="Pwd">
+					<label>设置密码</label>
+					    <div class="pwd">
+							<input type="password" id="upwd" placeholder="请设置6-20位字符密码" maxlength="20" onblur="checkPwd()">
+						</div>
+						<span class="pwdmsg"></span>
+					</div>
+					<div class="Rpwd">
+						<label>确认密码</label>
+						<div class="rpwd">
+							<input type="password" id="repeatPwd" placeholder="请再次输入密码" onblur="checkRpwd()">
+							<span class="checkRpwd"></span>
+						</div>
+						<div id="_submit">
+							<input type="button" value="注&nbsp;册">
+						</div>
+				</div>
+			 <div class="bottomLine"></div>
+			</div>
+		</div>
+		<script>
+            function checkUser(){
+                var uname=$("#uname").val();
+                var reg=/^[a-zA-Z][a-zA-Z0-9]{3,15}$/;
+                if(reg.test(uname)==false){
+                    var html="用户名格式不正确"
+					$("span.namemsg").text(html);
+					return false
+                }else if(reg.test(uname)==true){
+                    $("span.namemsg").text("");
+				}
+            }
+            function ckeckEmail() {
+                var email=$("#email").val();
+                var reg=/^.*@.*\.(com|cn|net)(\.cn)?$/;
+                if(reg.test(email)==false){
+                    var html="邮箱格式不正确"
+                    $("span.emailmsg").text(html);
+                    return false
+                }else if(reg.test(email)==true){
+                    $("span.emailmsg").text("");
+                }
+            }
+            function checkPwd(){
+                var upwd=$("#upwd").val();
+                var reg=/^[a-zA-Z0-9]{4,10}$/;
+                if(reg.test(upwd)==false){
+                    var html="密码格式不正确"
+                    $("span.pwdmsg").text(html);
+                    return false
+                }else if(reg.test(upwd)==true){
+                    $("span.pwdmsg").text("");
+                }
+			}
+			function checkRpwd(){
+                var upwd=$("#upwd").val();
+                var rupwd=$("#repeatPwd").val();
+                if(upwd!=rupwd){
+                    var html="确认密码与设置密码不一致"
+                    $("span.checkRpwd").text(html);
+				}
+			}
+		</script>
+		<script src="js/jquery-1.11.3.js"></script>
+		<script src="js/register.js"></script>
+	</body>
+</html> 

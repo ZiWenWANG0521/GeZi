@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /*图片居中*/
+     /* #d1{
+          width: 900px;
+          height:900px;
+          border:1px solid black;
+          display:table-cell;
+          text-align:center;
+          vertical-align:middle;
+
+
+      }*/
+        /*重叠*/
+      /*  #d1{
+            height:200px;
+            background:#88f;
+
+        }
+        #d2{
+            height:100px;
+            margin-top: 20px;
+            background:#0ff;
+            width:200px;
+        }
+        #d1:before{
+            content:"";
+            display:table;
+        }*/
+
+        /*#d1:after{
+            content:"";
+            display:block;
+            clear:both;
+        }*/
+        #box{
+            width:300px;
+            height:300px;
+            border:1px solid black;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+        #child{
+            width:200px;
+            height:100px;
+            background: #00ccff;
+
+        }
+
+    </style>
+</head>
+<body>
+
+<div id="box">
+    <div id="child">我是测试DIV</div>
+</div>
+<div id="app">
+    <input type="text" id="txt">
+    <p id="show"></p>
+</div>
+
+ <script>
+     /*JS做双向绑定*/
+     /*var obj={};
+     Object.defineProperty(obj,'txt',{
+         get:function(){
+             return obj;
+         },
+         set:function(newValue){
+             document.getElementById("txt").value=newValue
+             document.getElementById('show').innerHTML=newValue
+         }
+     })
+     document.addEventListener('keyup',function(e){
+         obj.txt=e.target.value
+     })*/
+    /* var btn=document.getElementById("tab");
+     btn.addEventListener("click",function(e){
+         var e=e||window.event;
+         var target=e.target||e.srcElement;
+         if(target.nodeName=="P"){
+             var a1=document.getElementById("a1")
+             var a2=document.getElementById("a2")
+            if(target.innerHTML=="和"){
+                a1.innerHTML="￥200/年"
+                a2.innerHTML="￥1000/年"
+            }else if(target.innerHTML=="安"){
+                a1.innerHTML="￥300/年"
+                a2.innerHTML="￥2000/年"
+            }
+         }
+     })
+       /* var btn=document.getElementById("app");
+        btn.addEventListener("click",function(e){
+            var e=e||window.event;
+            var target=e.target||e.srcElement;
+            if(target.nodeName=="P"){
+                alert("我是"+target.innerHTML);
+            }
+        })*/
+       /*var btn=document.getElementById("b")
+       var p=document.getElementById("p");
+       btn.onclick=function(){
+           var btn=this;
+           if(btn.innerHTML=="+")
+               p.innerHTML++;
+       }*/
+      /* var lis=document.getElementsByTagName("li");
+       for(var i=0;i<lis.length;i++){
+           (function(i){
+           lis[i].onclick=function(){
+                  alert(i)
+           }
+           })(i);
+
+       }*/
+
+ </script>
+</body>
+</html>
